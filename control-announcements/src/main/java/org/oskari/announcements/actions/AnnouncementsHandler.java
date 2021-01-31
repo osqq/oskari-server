@@ -1,6 +1,8 @@
 package org.oskari.announcements.actions;
 
 import fi.nls.oskari.control.RestActionHandler;
+import org.oskari.announcements.actions.AnnouncementsServiceMybatisImpl;
+import org.oskari.announcements.actions.AnnouncementsService;
 import org.oskari.announcements.helpers.AnnouncementsParser;
 import org.oskari.announcements.helpers.Announcement;
 import fi.nls.oskari.annotation.OskariActionRoute;
